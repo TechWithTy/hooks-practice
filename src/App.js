@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-
+//ToDo practice
 const Todo = ({ todo, completeTodo, removeTodo, index }) => (
   <div
     style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
